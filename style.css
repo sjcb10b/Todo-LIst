@@ -1,0 +1,147 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  background-color: #f4f8f3;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+  font-weight: 900;
+  color: #4680ff;
+}
+.textdate{
+  display: list-item;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.row {
+  --bs-gutter-x: 0.5rem !important;
+}
+.footer{
+  width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    color: #000000;
+}
+
+.subtitle {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.description-title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+input {
+  border-radius: 1px;
+
+  min-width: 50%;
+  padding: 5px;
+  border: none;
+  border: 1px solid #4680ff;
+}
+#button {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 15px auto 50px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  background: #4680ff;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type=text]:focus {
+  outline: none !important;
+  border:1px solid #4680ff !important;
+}
+
+
+.col {
+  flex: 1 0 18%;
+  /* The important bit. This percentage decides your columns. 
+    The percent can be px. It just represents your minimum starting width.
+   
+    margin: 5px;
+    background: tomato;
+    height: 50px;
+    color: white;
+    display: flex;
+     */
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  /* max-width: 100%; */
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  text-transform: UPPERCASE;
+  display: flex;
+}
+
+.card-footer:last-child {
+  display: flex !important;
+}
+.bg-c-blue {
+  background-color: #4680ff;
+}
+.bg-c-yellow {
+  background-color: #ffba57;
+}
+.bg-c-green {
+  background-color: #9ccc65;
+}
+.bg-c-red {
+  background-color: #ff5252;
+}
+
+
+.text-muted {
+  color: #fff !important;
+}
+.right{
+text-align: right;
+width: 100%;
+}
+
+
+
+.form-select {
+  display: block;
+  width: 100%;
+
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
